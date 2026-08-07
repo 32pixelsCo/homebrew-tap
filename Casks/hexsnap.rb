@@ -1,13 +1,8 @@
-require "download_strategy"
-
 cask "hexsnap" do
   version "0.1.0"
   sha256 "8b24d477abdfac2a0596776c1222ead7df13f273a9d50021e0cf405d9d3f6d37"
 
-  # Private repo: fetch the release asset via the GitHub API using
-  # HOMEBREW_GITHUB_API_TOKEN. The plain browser download URL 404s without auth.
-  url "https://github.com/32pixelsCo/HexSnap/releases/download/v#{version}/HexSnap-#{version}.zip",
-      using: GitHubPrivateRepositoryReleaseDownloadStrategy
+  url "https://github.com/32pixelsCo/HexSnap/releases/download/v#{version}/HexSnap-#{version}.zip"
   name "HexSnap"
   desc "Menu bar color picker with a magnifying loupe"
   homepage "https://github.com/32pixelsCo/HexSnap"
