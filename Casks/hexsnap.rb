@@ -1,3 +1,5 @@
+require "download_strategy"
+
 cask "hexsnap" do
   version "0.1.0"
   sha256 "8b24d477abdfac2a0596776c1222ead7df13f273a9d50021e0cf405d9d3f6d37"
