@@ -1,6 +1,6 @@
 cask "hexsnap" do
-  version "0.1.0"
-  sha256 "8b24d477abdfac2a0596776c1222ead7df13f273a9d50021e0cf405d9d3f6d37"
+  version "0.2.0"
+  sha256 "8535ee39b9589675f20bf28daca12148ba72d030d4c1392940c89a2b3804bea0"
 
   url "https://github.com/32pixelsCo/HexSnap-releases/releases/download/v#{version}/HexSnap-#{version}.zip"
   name "HexSnap"
