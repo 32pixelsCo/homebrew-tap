@@ -1,6 +1,6 @@
 cask "prbadge" do
-  version "0.1.1"
-  sha256 "974c9b3210df7fc3fa07a3db719cb87de9dea57fb14ca1766f99d96deaca5e79"
+  version "0.1.2"
+  sha256 "879e35a6390265098dc848a0f49bb94d5f763593d4160b7b19110202a20be403"
 
   url "https://github.com/32pixelsCo/PRBadge-releases/releases/download/v#{version}/PRBadge-#{version}.zip"
   name "PRBadge"
